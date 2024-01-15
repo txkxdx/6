@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+int main()
+{   
+	int _;
+	setlocale(0, "");
+	cout << "\x1b[92mВыберите месяц года \n" << "\x1b[0m";
+	cout << "Январь - 1 \n";
+	cout << "Февраль - 2 \n";
+	cout << "Март - 3 \n";
+	cout << "Апрель - 4 \n";
+	cout << "Май - 5 \n";
+	cout << "Июнь - 6 \n";
+	cout << "Июль - 7 \n";
+	cout << "Август - 8 \n";
+	cout << "Сентябрь - 9 \n";
+	cout << "Октябрь - 10 \n";
+	cout << "Ноябрь - 11 \n";
+	cout << "Декабрь - 12 \n";
+	int month;
+	cin >> month;
+	switch (month) 
+	{
+	case 1:
+		cout << "\x1b[93mВыбран месяц Январь \n";
+	break;
+	case 2:
+		cout << "\x1b[93mВыбран месяц Февраль \n";
+	break;
+	case 3:
+		cout << "\x1b[93mВыбран месяц Март \n";
+	break;
+	case 4:
+		cout << "\x1b[93mВыбран месяц Апрель \n";
+	break;
+	case 5:
+		cout << "\x1b[93mВыбран месяц Май \n";
+	break;
+	case 6:
+		cout << "\x1b[93mВыбран месяц Июнь \n";
+	break;
+	case 7:
+		cout << "\x1b[93mВыбран месяц Июль \n";
+	break;
+	case 8:
+		cout << "\x1b[93mВыбран месяц Август \n";
+	break;
+	case 9:
+		cout << "\x1b[93mВыбран месяц Сентябрь \n";
+	break;
+	case 10:
+		cout << "\x1b[93mВыбран месяц Октябрь \n";
+	break;
+	case 11:
+			cout << "\x1b[93mВыбран месяц Ноябрь \n";
+	break;
+	case 12:
+		cout << "\x1b[93mВыбран месяц Декабрь \n";
+	break;
+	default: "\x1b[91mНе правильно введен номер месяца!";
+	break;
+	}
+	
+	return 0;
+
+
+}
